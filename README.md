@@ -43,12 +43,12 @@ cd restapi
 mkdir build && cd build
 cmake ..
 make
-./MyKMomentsRestAPI
-```
+./Momentos
 
-OAOAOA# Running front end
-OAOA```
+```
+Running front end
 npm install
 npm run dev
-OAOA```
+
+
 
