@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'ComicSans';
+        src: local('Comic Sans MS');
+      }
+    </style>
+  </defs>
+  <text 
+    x="50%" 
+    y="50%" 
+    fill="#FFE135"
+    font-size="120px"
+    font-family="ComicSans, Arial, sans-serif"
+    style="font-weight: bold; dominant-baseline: middle; text-anchor: middle;">
+    Momentos
+  </text>
+</svg>

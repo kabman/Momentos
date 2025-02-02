@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 4% auto 2% auto;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  
+  .form input,
+  .form button {
+    height: 30px;
+  }
+  
+  .form button {
+    border-style: none;
+    background-color: rgb(250, 229, 107);
+    color: rgba(144,128,39,1);
+  }
+  
+  .momentDescription {
+    height: 50vh;
+  }
+  
+  .momentImageSection {
+    display: block;
+  }
+  
+  .momentDateSection {
+    margin-bottom: 1%;
+  }
+  
+  .charsLeft {
+    margin-top: 0%;
+    text-align: right;
+  }
+  
+  .momentFeelings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .formButtons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 2%;
+  }
+  
+  .hideElement {
+    display: none;
+  }

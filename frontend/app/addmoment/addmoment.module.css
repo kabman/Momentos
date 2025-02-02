@@ -1,0 +1,73 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 4% auto 2% auto;
+}
+
+    .form input,
+    .form button {
+        height: 30px;
+    }
+
+        .form input[type="submit"],
+        .form button {
+            border-style: none;
+            background-color: rgb(250, 229, 107);
+            color: rgba(144,128,39,1);
+        }
+
+            .form input[type="submit"]:hover,
+            .form button:hover {
+                background-color: rgb(238, 218, 103);
+            }
+
+    .form textarea {
+        height: 50vh;
+    }
+
+.momentDateSection {
+    margin-bottom: 1%;
+}
+
+.momentImageSection {
+    display: block;
+}
+
+.momentDescriptionCharsLeft {
+    margin-top: 0%;
+    text-align: right;
+}
+
+.momentFeelings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.formButtons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 2%;
+}
+
+.fixedStatusMessage {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.error {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+
+.success {
+    background-color: #ccffcc;
+    color: #008000;
+}

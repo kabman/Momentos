@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 160px); /* Accounting for navbar and footer */
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.loginBox {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(144, 128, 39);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formGroup label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: rgb(250, 229, 107);
+}
+
+.submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(250, 229, 107);
+    color: rgb(144, 128, 39);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+    background-color: rgb(238, 218, 103);
+}
+
+.signupLink {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+.signupLink a {
+    color: rgb(144, 128, 39);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signupLink a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .loginBox {
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+}
