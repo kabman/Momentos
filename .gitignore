@@ -14,7 +14,16 @@ restapi/build/
 
 # dependencies
 /node_modules
+# Next.js build output
+frontend/.next
+frontend/out
+frontend/build
+
+# Dependencies
 frontend/node_modules
+
+# Cache
+frontend/.next/cache
 /.pnp
 .pnp.*
 .yarn/*
