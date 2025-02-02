@@ -44,11 +44,12 @@ mkdir build && cd build
 cmake ..
 make
 ./Momentos
-
 ```
-Running front end
+
+# Running front end
+```
 npm install
 npm run dev
-
+```
 
 
