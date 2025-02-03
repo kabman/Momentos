@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import styles from './createAccount.module.css';
+import styles from './createaccount.module.css';
 
 export default function CreateAccount() {
     const router = useRouter();
