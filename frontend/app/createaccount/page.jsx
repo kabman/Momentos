@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import CreateAccount from './createaccount';
+import CreateAccount from './createaccount.jsx';
 
 export default function CreateAccountPage() {
     const router = useRouter();
