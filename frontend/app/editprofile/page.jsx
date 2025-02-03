@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import styles from './editProfile.module.css';
+import styles from './editprofile.module.css';
 
 export default function EditProfilePage() {
     const router = useRouter();
